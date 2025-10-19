@@ -1,6 +1,6 @@
 # 💻 Portfólio de Projetos – Eduardo Brotto
 
-Repositório desenvolvido como parte da disciplina **Introdução à Computação**, ministrada pelo professor **Fabrício Ofugi**.  
+Repositório desenvolvido como parte da disciplina **Bootcamp**  
 O objetivo é aplicar boas práticas de versionamento com **Git e GitHub**, colaboração em equipe e integração com ferramentas profissionais como o **LinkedIn**.
 
 ---
