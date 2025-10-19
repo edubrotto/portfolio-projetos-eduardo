@@ -3,24 +3,139 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio de Eduardo Brotto</title>
+  <title>Portfólio – Eduardo Brotto</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      text-align: center;
-      padding: 40px;
-    }
-    h1 {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f5f5f5;
       color: #333;
     }
-    p {
-      color: #555;
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #111827;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #f3f4f6;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f2937;
+      color: #f9fafb;
+      margin-top: 50px;
+    }
+
+    .projeto {
+      margin-bottom: 20px;
+    }
+
+    .projeto h3 {
+      color: #2563eb;
+      margin-bottom: 5px;
+    }
+
+    .projeto p {
+      margin: 0;
+    }
+
+    .botao {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .botao:hover {
+      background-color: #1e40af;
     }
   </style>
 </head>
 <body>
-  <h1>Bem-vindo ao meu portfólio!</h1>
-  <p>Este site foi criado com <strong>GitHub Pages</strong> 😄</p>
+  <header>
+    <h1>Eduardo Brotto</h1>
+    <p>Desenvolvedor em formação | Projetos acadêmicos e pessoais</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Olá! Sou o <strong>Eduardo Brotto</strong>, estudante de tecnologia e apaixonado por automação, desenvolvimento e inovação. Este portfólio foi criado para apresentar meus projetos acadêmicos e pessoais, utilizando boas práticas com Git e GitHub.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="projeto">
+      <h3>📘 Projeto 1 – Automação com n8n</h3>
+      <p>Fluxo automatizado para envio de mensagens utilizando a plataforma n8n. Projeto da disciplina <em>Introdução à Computação</em>.</p>
+      <a class="botao" href="https://github.com/eduardobrotto" target="_blank">Ver no GitHub</a>
+    </div>
+
+    <div class="projeto">
+      <h3>💻 Projeto 2 – Página Web Responsiva</h3>
+      <p>Criação de um site responsivo em HTML e CSS com integração ao GitHub Pages.</p>
+      <a class="botao" href="https://eduardobrotto.github.io" target="_blank">Abrir site</a>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📧 <strong>Email:</strong> seuemail@example.com</p>
+    <p>🔗 <a href="https://www.linkedin.com/in/seuusuario/" target="_blank">LinkedIn</a></p>
+    <p>💼 <a href="https://github.com/eduardobrotto" target="_blank">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Eduardo Brotto – Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
+
