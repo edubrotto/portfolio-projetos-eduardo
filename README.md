@@ -54,7 +54,7 @@ Um pequeno projeto desenvolvido em HTML, CSS e JavaScript para praticar versiona
 2. Adição dos arquivos do projeto:  
    ```bash
    git add .
-   git commit -m "Adiciona projeto inicial: calculadora web"
+   git commit -m
    ```
 3. Envio ao GitHub:  
    ```bash
@@ -91,8 +91,7 @@ Projeto desenvolvido para automatizar o envio de mensagens utilizando o **n8n**.
 2. Configurar as variáveis de ambiente.
 3. Executar o fluxo e validar as respostas.
 
-## 📸 Capturas
-(imagens de exemplo)
+
 ```
 
 ---
