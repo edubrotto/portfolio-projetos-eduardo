@@ -37,9 +37,6 @@ portfolio-projetos-eduardo/
 │   └── anotacoes.md
 │
 └── README.md
-```
-
-Essa organização facilita o crescimento do repositório e o uso de boas práticas de versionamento.
 
 ---
 
@@ -111,54 +108,20 @@ Foi realizado um **fork** de um repositório público, seguido de:
 - Adição de um novo arquivo `README.md` explicativo;
 - Envio de um **Pull Request** para o projeto original.
 
-### 👨‍💻 Colaboração em Grupo
-- Trabalho colaborativo com colegas em um repositório compartilhado;
-- Uso de **branches** individuais para cada funcionalidade;
-- Integração via **Pull Requests** revisados antes da fusão na `main`.
-
 Exemplo:
 ```bash
 git checkout -b nova-funcionalidade
 git push origin nova-funcionalidade
 # Pull Request aberto no GitHub
-```
 
----
 
-## 🌐 5. Compartilhamento e Integração com LinkedIn
-
-### 🔗 Repositório Público
-O repositório foi tornado **público** para visualização profissional e compartilhamento:
-```
-https://github.com/SEU_USUARIO/portfolio-projetos-eduardo
-```
-
-### 💼 Integração com o LinkedIn
-1. No LinkedIn, acessar:
-   ```
-   Perfil → Adicionar seção → Destacado → Link
-   ```
-2. Inserir o link do repositório e descrição:
-   > Portfólio de projetos da disciplina de Introdução à Computação, demonstrando práticas de versionamento e colaboração.
-
-3. Adicionar também na seção **Projetos** do perfil.
-
----
-
-## 🎥 6. Revisão Final e Apresentação
+## 5. Revisão Final e Apresentação
 
 ### 📹 Apresentação em Vídeo (YouTube)
 Será criada uma breve apresentação explicando:
 - Estrutura e objetivos do repositório;
 - Principais projetos desenvolvidos;
 - Demonstração prática do uso do Git e GitHub.
-
-Exemplo de roteiro:
-1. Introdução ao portfólio  
-2. Navegação pelas pastas e README  
-3. Demonstração de commits e branches  
-4. Conclusão e convite para visitar o GitHub
-
 ---
 
 ## 📜 Licença
@@ -169,11 +132,8 @@ Este repositório está sob a [Licença MIT](./LICENSE), permitindo o uso e modi
 
 ## 📬 Contato
 
-- 👤 **Autor:** Eduardo Brotto  
-- 💼 [LinkedIn](https://linkedin.com/in/eduardo-brotto)  
-- 💾 [GitHub](https://github.com/SEU_USUARIO)  
-- ✉️ **E-mail:** eduardo.brotto@example.com
+- 👤 **Autor:** Eduardo Brotto 
+- 💾 [GitHub](https://github.com/edubrotto)  
+- ✉️ **E-mail:** eduardo.ocastro@sempreceub.com
 
----
 
-> “Versionar é documentar sua evolução como desenvolvedor.”
